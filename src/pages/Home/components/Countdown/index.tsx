@@ -18,13 +18,8 @@ export function Countdown() {
       interval = setInterval(() => {
         const secondsDifference = differenceInSeconds(
           new Date(),
-          activeCycle.startDate,
+          new Date(activeCycle.startDate),
         )
-
-        /* 
-        Quando a gente atualiza um estado e esse estado depende do seu valor anterior, que é o caso
-        abaixo - temos que escrever isso num formato de função - por isso o state aí em baixo, ao invés do cycle.
-        */
 
         if (secondsDifference >= totalSeconds) {
           markCurrentCycleAsFinished()
