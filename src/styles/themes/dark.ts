@@ -27,4 +27,8 @@ export const darkTheme: typeof lightTheme = {
   'ec-dark': '#7A1921',
 
   'warning-light': '#FBA94C',
+
+  'button-start': '#F05107',
+  'button-start-hover': '#F05107',
+  'light-button': 'yellow',
 }

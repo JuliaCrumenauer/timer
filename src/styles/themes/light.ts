@@ -16,7 +16,7 @@ export const lightTheme = {
   'shape-content': '#DAE6E2',
   'color-content-table': '#323238',
 
-  'color-background': '#54B397',
+  'color-background': '#F78651 ',
   'ignite-light': '#00B37E',
   'ignite-mid': '#00875F',
   'ignite-dark': '#015F43',
@@ -25,4 +25,8 @@ export const lightTheme = {
   'ec-dark': '#7A1921',
 
   'warning-light': '#FBA94C',
+  'button-start': '#F78651 ',
+  'button-start-hover': '#FA5B11',
+
+  'light-button': 'purple',
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
   display: flex;
-  align-items: centre;
+  align-items: center;
   justify-content: space-between;
 
   nav {
@@ -25,23 +25,14 @@ export const HeaderContainer = styled.div`
       transition: all 0.2s ease;
 
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme['ignite-mid']};
+        border-bottom: 3px solid ${(props) => props.theme['button-start']};
       }
 
       /* A classe 'active' é inserida pelo react-router-dom */
       &.active {
-        color: ${(props) => props.theme['ignite-mid']};
+        color: ${(props) => props.theme['button-start']};
       }
     }
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 0.5rem;
-
     button {
       width: 3rem;
       height: 3rem;
@@ -49,6 +40,8 @@ export const HeaderContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+
+      color: ${(props) => props.theme['light-button']};
 
       //color: ${(props) => props.theme['text-title']};
       background: none;
@@ -61,8 +54,7 @@ export const HeaderContainer = styled.div`
       transition: all 0.2s ease;
 
       &:hover {
-        /* color: ${(props) => props.theme['ignite-mid']}; */
-        border-bottom: 3px solid ${(props) => props.theme['ignite-mid']};
+        border-bottom: 3px solid ${(props) => props.theme['button-start']};
       }
     }
   }

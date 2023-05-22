@@ -33,10 +33,10 @@ export const BaseCountdownButton = styled.button`
 `
 
 export const StartCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['ignite-mid']};
+  background: ${(props) => props.theme['button-start']};
 
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['ignite-dark']};
+    background: ${(props) => props.theme['button-start-hover']};
   }
 `
 
